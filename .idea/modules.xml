@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SSM.iml" filepath="$PROJECT_DIR$/.idea/SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/common-service/common-service.iml" filepath="$PROJECT_DIR$/ssm-maven-part/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/order-service/order-service.iml" filepath="$PROJECT_DIR$/ssm-maven-part/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/spring-ioc-xml-01/spring-ioc-xml-01.iml" filepath="$PROJECT_DIR$/ssm-spring-part/spring-ioc-xml-01/spring-ioc-xml-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/ssm-maven-part.iml" filepath="$PROJECT_DIR$/ssm-maven-part/ssm-maven-part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/ssm-spring-part.iml" filepath="$PROJECT_DIR$/ssm-spring-part/ssm-spring-part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/user-service/user-service.iml" filepath="$PROJECT_DIR$/ssm-maven-part/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>
