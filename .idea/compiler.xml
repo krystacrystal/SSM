@@ -10,12 +10,14 @@
         <module name="user-service" />
         <module name="order-service" />
         <module name="common-service" />
+        <module name="spring-ioc-xml-practice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-service" target="1.8" />
       <module name="order-service" target="1.8" />
       <module name="spring-ioc-xml-01" target="1.8" />
+      <module name="spring-ioc-xml-practice" target="1.8" />
       <module name="ssm-maven-part" target="1.8" />
       <module name="ssm-spring-part" target="1.8" />
       <module name="user-service" target="1.8" />
