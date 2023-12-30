@@ -5,6 +5,7 @@ import com.atguigu.ioc_01.ClientServiceImpl;
 import com.atguigu.ioc_01.HappyComponent;
 import com.atguigu.ioc_02.SimpleMovieLister;
 import com.atguigu.ioc_02.UserService;
+import com.atguigu.ioc_03.JavaBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -54,5 +55,13 @@ public class IocTest {
         System.out.println(bean1);
         System.out.println(bean2);
         System.out.println(bean1 == bean2);
+    }
+
+    @Test
+    public void test6() {
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("spring-bean-03.xml");
+        JavaBean javaBean = applicationContext.getBean(JavaBean.class);
+        System.out.println(javaBean);
     }
 }
