@@ -44,4 +44,15 @@ public class IocTest {
         SimpleMovieLister simpleMovieLister = applicationContext.getBean(SimpleMovieLister.class);
         System.out.println(simpleMovieLister.toString());
     }
+
+    @Test
+    public void test5() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("myspring-bean-02.xml");
+        SimpleMovieLister bean1 = applicationContext.getBean(SimpleMovieLister.class);
+        SimpleMovieLister bean2 = applicationContext.getBean(SimpleMovieLister.class);
+        //内容是一样的，地址不一样
+        System.out.println(bean1);
+        System.out.println(bean2);
+        System.out.println(bean1 == bean2);
+    }
 }
