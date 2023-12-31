@@ -10,5 +10,10 @@
         <option value="$PROJECT_DIR$/ssm-spring-part/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ssm-spring-part/spring-ioc-xml-practice-02/pom.xml" />
+      </set>
+    </option>
   </component>
 </project>
