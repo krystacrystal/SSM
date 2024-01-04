@@ -1,8 +1,11 @@
 package com.atguigu.test;
 
+import com.atguigu.Configuration.MyConfiguration;
 import com.atguigu.components.CommonComponent;
 import com.atguigu.components.XxxController;
+import com.atguigu.controller.SoldierController;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationTest {
@@ -16,5 +19,14 @@ public class AnnotationTest {
 
         XxxController xxxController = applicationContext.getBean(XxxController.class);
         System.out.println(xxxController);
+    }
+
+    @Test
+    public void test2(){
+        AnnotationConfigApplicationContext applicationContext
+                = new AnnotationConfigApplicationContext(MyConfiguration.class);
+        SoldierController soldierController =
+                applicationContext.getBean(SoldierController.class);
+        soldierController.getMessage();
     }
 }

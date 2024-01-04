@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-ioc-xml-01</module>
-        <module>spring-ioc-xml-practice</module>
+        <module>spring-ioc-xml-practice-02</module>
         <module>spring-ioc-annotation-03</module>
     </modules>
     <packaging>pom</packaging>
