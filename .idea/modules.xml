@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/common-service/common-service.iml" filepath="$PROJECT_DIR$/ssm-maven-part/common-service/common-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/order-service/order-service.iml" filepath="$PROJECT_DIR$/ssm-maven-part/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/spring-ioc-annotation-03/spring-ioc-annotation-03.iml" filepath="$PROJECT_DIR$/ssm-spring-part/spring-ioc-annotation-03/spring-ioc-annotation-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/spring-ioc-annotation-04/spring-ioc-annotation-04.iml" filepath="$PROJECT_DIR$/ssm-spring-part/spring-ioc-annotation-04/spring-ioc-annotation-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/spring-ioc-annotation-practice-04/spring-ioc-annotation-practice-04.iml" filepath="$PROJECT_DIR$/ssm-spring-part/spring-ioc-annotation-practice-04/spring-ioc-annotation-practice-04.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/spring-ioc-xml-01/spring-ioc-xml-01.iml" filepath="$PROJECT_DIR$/ssm-spring-part/spring-ioc-xml-01/spring-ioc-xml-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-maven-part/ssm-maven-part.iml" filepath="$PROJECT_DIR$/ssm-maven-part/ssm-maven-part.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-spring-part/ssm-spring-part.iml" filepath="$PROJECT_DIR$/ssm-spring-part/ssm-spring-part.iml" />
